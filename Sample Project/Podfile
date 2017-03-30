@@ -1,0 +1,26 @@
+# Podfile
+# KMHGridView
+# Ken M. Haggerty
+# CREATED: Mar 30 2017
+# EDITED:  Mar 30 2017
+
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+def sharedPods
+end
+
+def testPods
+  pod 'Specta', '~> 1.0'
+  pod 'Expecta', '~> 1.0'
+  pod 'KIF'
+end
+
+target 'KMHGridView' do
+  sharedPods
+end
+
+target 'KMHGridViewTests' do
+  sharedPods
+  testPods
+end

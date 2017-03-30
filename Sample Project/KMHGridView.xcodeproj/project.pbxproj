@@ -14,6 +14,8 @@
 		1F5439B51E8CBA2200C5F134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5439B41E8CBA2200C5F134 /* ViewController.m */; };
 		1F5439AF1E8CBA2200C5F134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5439AE1E8CBA2200C5F134 /* main.m */; };
 		1F5439C81E8CBA2200C5F134 /* KMHGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5439C71E8CBA2200C5F134 /* KMHGridViewTests.m */; };
+		149AA3517A5C997A23894D5F /* Pods_KMHGridView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301A49DF144E5C2C70A49FCC /* Pods_KMHGridView.framework */; };
+		68E1554FC8AFD66CE00E052D /* Pods_KMHGridViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344306481101EFE5642A2727 /* Pods_KMHGridViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,12 @@
 		1F5439C91E8CBA2200C5F134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5439AA1E8CBA2200C5F134 /* KMHGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMHGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5439C31E8CBA2200C5F134 /* KMHGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMHGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		301A49DF144E5C2C70A49FCC /* Pods_KMHGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMHGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344306481101EFE5642A2727 /* Pods_KMHGridViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMHGridViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929D1D36B3A75D258B0485C0 /* Pods-KMHGridView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMHGridView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMHGridView/Pods-KMHGridView.debug.xcconfig"; sourceTree = "<group>"; };
+		A8D5B4AA39AF00E549E9D9E0 /* Pods-KMHGridView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMHGridView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMHGridView/Pods-KMHGridView.release.xcconfig"; sourceTree = "<group>"; };
+		5C345B716FEF5CAD55BDC75E /* Pods-KMHGridViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMHGridViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMHGridViewTests/Pods-KMHGridViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		068263F6821E3A5154536F72 /* Pods-KMHGridViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMHGridViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMHGridViewTests/Pods-KMHGridViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149AA3517A5C997A23894D5F /* Pods_KMHGridView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E1554FC8AFD66CE00E052D /* Pods_KMHGridViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +77,8 @@
 				1F5439AC1E8CBA2200C5F134 /* KMHGridView */,
 				1F5439C61E8CBA2200C5F134 /* KMHGridViewTests */,
 				1F5439AB1E8CBA2200C5F134 /* Products */,
+				968F5E4F01F601C254FBB24A /* Frameworks */,
+				38EB9AE62C925833733547FD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +149,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		968F5E4F01F601C254FBB24A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301A49DF144E5C2C70A49FCC /* Pods_KMHGridView.framework */,
+				344306481101EFE5642A2727 /* Pods_KMHGridViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38EB9AE62C925833733547FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				929D1D36B3A75D258B0485C0 /* Pods-KMHGridView.debug.xcconfig */,
+				A8D5B4AA39AF00E549E9D9E0 /* Pods-KMHGridView.release.xcconfig */,
+				5C345B716FEF5CAD55BDC75E /* Pods-KMHGridViewTests.debug.xcconfig */,
+				068263F6821E3A5154536F72 /* Pods-KMHGridViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F5439CC1E8CBA2200C5F134 /* Build configuration list for PBXNativeTarget "KMHGridView" */;
 			buildPhases = (
+				E395ABFE9A5E39984BE76428 /* [CP] Check Pods Manifest.lock */,
 				1F5439A61E8CBA2200C5F134 /* Sources */,
 				1F5439A71E8CBA2200C5F134 /* Frameworks */,
 				1F5439A81E8CBA2200C5F134 /* Resources */,
+				A25A0C82B0C3BEF23C3F237C /* [CP] Embed Pods Frameworks */,
+				91DD45B1A360BCD4006278B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F5439CF1E8CBA2200C5F134 /* Build configuration list for PBXNativeTarget "KMHGridViewTests" */;
 			buildPhases = (
+				0890FA064937FFB6FDA0B9F9 /* [CP] Check Pods Manifest.lock */,
 				1F5439BF1E8CBA2200C5F134 /* Sources */,
 				1F5439C01E8CBA2200C5F134 /* Frameworks */,
 				1F5439C11E8CBA2200C5F134 /* Resources */,
+				C30A3CA78BDBB13A2DF0BDCF /* [CP] Embed Pods Frameworks */,
+				D530341B3D9B1126B1ED4A40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +268,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0890FA064937FFB6FDA0B9F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91DD45B1A360BCD4006278B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMHGridView/Pods-KMHGridView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25A0C82B0C3BEF23C3F237C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMHGridView/Pods-KMHGridView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30A3CA78BDBB13A2DF0BDCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMHGridViewTests/Pods-KMHGridViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D530341B3D9B1126B1ED4A40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMHGridViewTests/Pods-KMHGridViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E395ABFE9A5E39984BE76428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F5439A61E8CBA2200C5F134 /* Sources */ = {
@@ -348,6 +479,7 @@
 		};
 		1F5439CD1E8CBA2200C5F134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929D1D36B3A75D258B0485C0 /* Pods-KMHGridView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KMHGridView/Supporting Files/Info.plist";
@@ -359,6 +491,7 @@
 		};
 		1F5439CE1E8CBA2200C5F134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D5B4AA39AF00E549E9D9E0 /* Pods-KMHGridView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KMHGridView/Supporting Files/Info.plist";
@@ -370,6 +503,7 @@
 		};
 		1F5439D01E8CBA2200C5F134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C345B716FEF5CAD55BDC75E /* Pods-KMHGridViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "KMHGridViewTests/Supporting Files/Info.plist";
@@ -382,6 +516,7 @@
 		};
 		1F5439D11E8CBA2200C5F134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068263F6821E3A5154536F72 /* Pods-KMHGridViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "KMHGridViewTests/Supporting Files/Info.plist";

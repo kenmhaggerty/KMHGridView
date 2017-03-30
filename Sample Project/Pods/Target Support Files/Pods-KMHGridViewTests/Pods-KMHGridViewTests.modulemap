@@ -1,0 +1,6 @@
+framework module Pods_KMHGridViewTests {
+  umbrella header "Pods-KMHGridViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

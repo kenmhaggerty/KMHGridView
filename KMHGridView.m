@@ -59,8 +59,8 @@ NSTimeInterval const KMHGridViewAnimationSpeed = 0.18f;
         self.distribution = UIStackViewDistributionFillEqually;
         self.alignment = UIStackViewAlignmentFill;
         
-        _rows = rows;
-        _cols = cols;
+        self.rows = rows;
+        self.cols = cols;
     }
     return self;
 }
@@ -108,10 +108,10 @@ NSTimeInterval const KMHGridViewAnimationSpeed = 0.18f;
     
     _rows = rows;
     
-    for (int i = self.arrangedSubviews.count; i < rows; i++) {
+    for (NSUInteger i = self.arrangedSubviews.count; i < rows; i++) {
         [self insertRowAtIndex:i animated:animated];
     }
-    for (int i = self.arrangedSubviews.count; i > rows; i--) {
+    for (NSUInteger i = self.arrangedSubviews.count; i > rows; i--) {
         [self removeRowAtIndex:i-1 animated:animated];
     }
 }
@@ -124,10 +124,10 @@ NSTimeInterval const KMHGridViewAnimationSpeed = 0.18f;
     _cols = cols;
     
     for (UIStackView *row in self.arrangedSubviews) {
-        for (int i = row.arrangedSubviews.count; i < cols; i++) {
+        for (NSUInteger i = row.arrangedSubviews.count; i < cols; i++) {
             [self insertColumnAtIndex:i animated:animated];
         }
-        for (int i = row.arrangedSubviews.count; i > cols; i--) {
+        for (NSUInteger i = row.arrangedSubviews.count; i > cols; i--) {
             [self removeColumnAtIndex:i-1 animated:animated];
         }
     }
