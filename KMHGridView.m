@@ -14,10 +14,6 @@
 
 #pragma mark - // KMHGridView //
 
-#pragma mark Imports
-
-#include <asl.h>
-
 #pragma mark Notifications
 
 NSString * const KMHGridViewWillAddCellNotification = @"kKMHGridViewWillAddCellNotification";
@@ -95,8 +91,10 @@ NSTimeInterval const KMHGridViewAnimationSpeed = 0.18f;
     return ((UIStackView *)self.arrangedSubviews[idx]).arrangedSubviews;
 }
 
-- (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx {
-    asl_log(NULL, NULL, 4, "cannot set row after initialization");
+- (void)setObject:(UIStackView *)obj atIndexedSubscript:(NSUInteger)idx {
+    UIStackView *primitiveStackView = self.arrangedSubviews[idx];
+    [self insertArrangedSubview:obj atIndex:idx];
+    [self removeArrangedSubview:primitiveStackView];
 }
 
 #pragma mark // Public Methods (Setters) //

@@ -39,7 +39,7 @@ extern NSString * const KMHGridViewNotificationColKey;
 // CUSTOM INDEXED SUBSCRIPTING //
 
 - (NSArray <UIView *> *)objectAtIndexedSubscript:(NSUInteger)idx;
-- (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx;
+- (void)setObject:(UIStackView *)obj atIndexedSubscript:(NSUInteger)idx;
 
 // SETTERS //
 
